@@ -8,7 +8,7 @@ body {
     left: 0;
     bottom: 0;
     padding: 12px;
-    width: 300px;
+    width: 344px;
 }
 
 .sidebar__navigation {
@@ -30,18 +30,18 @@ body {
 
 .sidebar nav ul {
     margin-top: 20px;
-    padding: 0 20px 10px 20px;
+    padding: 0 20px 12px 20px;
 }
 
 .sidebar ul li {
-    padding: 10px 0;
+    padding: 12px 0;
 }
 
 .sidebar nav ul li a {
     color: #b3b3b3;
     text-decoration: none;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 16px;
     font-family: "DM Sans", sans-serif;
 }
 
@@ -54,8 +54,12 @@ body {
     padding: 4px 8px;
     color: #b3b3b3;
     font-weight: 600;
-    font-size: 14px;
-    margin-top: 10px;
+    font-size: 16px;
+    margin-top: 12px;
+}
+
+.ctn-library {
+    margin-bottom: 164px;
 }
 
 .library .library__content {
@@ -65,7 +69,7 @@ body {
 
 .library .library__button {
     display: flex;
-    margin-right: 10px;
+    margin-right: 12px;
     color: #b3b3b3;
     background-color: transparent;
     border: 0px;
@@ -75,18 +79,18 @@ body {
     text-align: center;
     text-decoration: none;
     text-transform: none;
-    padding: 20px 10px;
+    padding: 20px 12px;
 }
 
 .library .library__button .fa {
     font-size: 20px;
-    margin-right: 10px;
+    margin-right: 12px;
     font-weight: 300;
     padding-right: 8px;
 }
 
 .library .library__content .fa-plus {
-    margin: 24px 10px;
+    margin: 24px 12px;
 }
 
 .section-playlist {
@@ -97,10 +101,10 @@ body {
     background-color: #242424;
     color: #b3b3b3;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 16px;
     margin: 8px 0px;
     padding: 16px 20px;
-    border-radius: 10px;
+    border-radius: 12px;
 }
 
 .section-playlist .section-playlist__content {
@@ -109,7 +113,7 @@ body {
 }
 
 .section-playlist__content .text {
-    padding-bottom: 14px;
+    padding-bottom: 16px;
     color: #fff;
     font-family: "DM Sans", sans-serif;
 }
@@ -129,15 +133,16 @@ body {
     background-color: #fff;
     color: #000000;
     border-radius: 20px;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
     font-family: "DM Sans", sans-serif;
     text-decoration: none;
     text-transform: none;
-    padding: 10px;
+    padding: 8px;
     border: 0px;
-    width: 113px;
+    width: 160px;
     margin-top: 12px;
+    cursor: pointer;
 }
 
 .sidebar .cookies {
@@ -147,7 +152,7 @@ body {
 .sidebar .cookies a {
     color: #b3b3b3;
     font-weight: 500;
-    font-size: 10px;
+    font-size: 12px;
     text-decoration: none;
 }
 
@@ -162,86 +167,50 @@ body {
     color: #fff;
     cursor: pointer;
     font-weight: bold;
-    width: 170px;
+    width: 180px;
     margin: 8px;
     padding: 8px;
     border-radius: 20px;
 }
 
-.ctn__footer {
-    width: 100%;
-}
-
-footer {
-    display: flex;
-    flex-direction: column;
-    height: auto;
-    min-width: 620px;
-}
-
-.visualizar__footer {
-    padding: 11px 24px 7px 15px;
+.disclaimer-premium{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(90deg, #af2896 , #509bf5);
+    padding: 16px 40px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    position: relative;
-    gap: 24px;
-    background-image: linear-gradient(90deg, #af2896 , #509bf5);
-    cursor: pointer;
-    width: 100%;
-    z-index: 1;
 }
 
 .footer__text {
-    margin: 0 0 4px 0;
+    flex-shrink: 0;
     color: #fff;
-}
-
-.text {
-    margin-block: 0px;
-    color: inherit;
-}
-
-.text-bold {
-    font-weight: 700;
-    font-size: 0.8125rem;
     font-family: "DM Sans", sans-serif;
 }
 
-.text-medium {
-    font-weight: 400;
-    font-size: 1rem;
-    font-family: "DM Sans", sans-serif;
+.text-title {
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
 }
 
-.footer__button {
-    box-sizing: border-box;
-    -webkit-tap-highlight-color: transparent;
-    font-size: 1rem;
-    font-weight: 700;
-    font-family: var(--font-family,CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif));
-    background-color: transparent;
-    border: 0px;
-    border-radius: 9999px;
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    text-align: center;
-    text-decoration: none;
-    text-transform: none;
-    transition-duration: 33ms;
-    user-select: none;
-    vertical-align: middle;
-    transform: translate3d(0px, 0px, 0px);
-    padding: 0px;
-    min-inline-size: 0px;
-    align-self: center;
+.text-subtitle {
+    font-weight: 500;
+    font-size: 12px;
 }
 
-.footer__button span {
-    background-color: #fff;
-    display: flex;
-    border-radius: 9999px;
-    padding: 14px;
+.footer__button button{
+   background-color: #fff;
+   color: #000000;
+   font-size: 16px;
+   font-weight: bold;
+   padding: 14px 30px;
+   border: 0px;
+   border-radius: 40px;
+   cursor: pointer;
+   flex-shrink: 0;
 }
+
