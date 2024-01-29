@@ -6,4 +6,21 @@
     --color-primary: #fff;
     --color-secudary: #b3b3b3;
     --bg-ctn: #121212;
+
+    /*Color cards*/
+    --card-1:  rgb(4, 131, 105);
+    --card-2: rgb(140, 39, 218); 
+    --card-3: rgb(49, 86, 180);
+    --card-4: rgb(140, 25, 50);
+    --card-5: rgb(194, 30, 87);
+    --card-6: rgb(91, 120, 148);
+    --card-7: rgb(142, 102, 172);
+    --card-8: rgb(20, 138, 8);
+    --card-9: rgb(56, 76, 126);
+    --card-10: rgb(201, 80, 92);
+    --card-11: rgb(80, 55, 80);
+    --card-12: rgb(212, 93, 41);
+    --card-13: rgb(206, 125, 50);
+    --card-14: rgb(0, 30, 82);
+    --card-15: rgb(60, 30, 80);
 }
